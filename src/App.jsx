@@ -1,7 +1,7 @@
 import React from 'react';
 import AppNavbar from './components/Layout/Navbar';
 import { SingleUploader, MultiUploader, Dropzone } from './components/Uploaders/Uploaders';
-
+import Test from './components/test'
 const App = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const App = () => {
                   </h3>
               </div>
               <div className="card-body">
-                <div className="row">
+                {/* <div className="row">
                   <div className="col-12">
                     <SingleUploader
                       uploadUrl="images/single-upload"
@@ -41,6 +41,16 @@ const App = () => {
                       label="Dropzone"
                       id="dropzone-uploader"
                     />
+                  </div>
+                </div> */}
+                <div className="row">
+                  <div className="col-12">
+                    {/* <MultiUploader
+                      uploadUrl="images/multi-upload"
+                      label="Upload Multiple Images"
+                      id="multi-uploader"
+                    /> */}
+                    <Test label="Assetess" id="multi-uploader"/>
                   </div>
                 </div>
               </div>
